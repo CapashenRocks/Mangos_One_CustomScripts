@@ -4,7 +4,7 @@ Various scripts written for MaNGSs One.
 
 
 ##
-* Demon Renamer <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/tbc.png">
+* Demon Renamer <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/bc.png">
   + Allows a Warlock to pay 5g once per day to name any of their demons.
   + The demon to be renamed must be summoned.
   + The SQL file needs to be run in the character database to create a new table for the script to work.
