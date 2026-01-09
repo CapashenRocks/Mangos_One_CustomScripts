@@ -1,4 +1,4 @@
-# Mangos_One_CustomScripts
+# MaNGOS One CustomScripts
 Various scripts written for MaNGSs One. 
   * Only tested for MaNGOS One not CMaNGOS, MaNGOS ZERO, or any other version.
 
