@@ -8,3 +8,9 @@ Various scripts written for MaNGSs One.
   + Allows a Warlock to pay 5g once per day to name any of their demons.
   + The demon to be renamed must be summoned.
   + The SQL file needs to be run in the character database to create a new table for the script to work.
+ <br><br>
+* Crafting Perks <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
+  + Utilizing custom dummy spells, increases various profession crafting/gathering speed
+  + Custom Spell ID is hardcoded in the script.
+  + TODO- Add Herbalism.
+    
