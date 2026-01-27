@@ -159,7 +159,7 @@ namespace JerCore
                 ApplyMult(castTime, SMELT_MULT);
                 return;
             }
-            // Herbalistm: Herbing Speed Increase of 20 %
+            // Herbalistm: Herbing Speed Increase of 15 %
                 static const uint32 HERB_PERK_SPELL = 54016;
             static const uint32 SKILL_HERBALISM = 182;
             static const float  HERB_MULT = 0.80f;
@@ -177,6 +177,26 @@ namespace JerCore
             if (plr->HasSpell(ENCH_PERK_SPELL) && IsSpellInSkillLine(spellInfo->Id, SKILL_ENCHANTING))
             {
                 ApplyMult(castTime, ENCH_MULT);
+                return;
+            }
+            // Skinning: Skinning Speed Increase of 15 %
+            static const uint32 SKIN_PERK_SPELL = 54018;
+            static const uint32 SKILL_SKINNING = 393;
+            static const float  SKIN_MULT = 0.85f;
+
+            if (plr->HasSpell(SKIN_PERK_SPELL) && IsSpellInSkillLine(spellInfo->Id, SKILL_SKINNING))
+            {
+                ApplyMult(castTime, SKIN_MULT);
+                return;
+            }
+            // Jewelcrafting: Jewelcrafting Speed Increase of 20 %
+            static const uint32 JC_PERK_SPELL = 54019;
+            static const uint32 SKILL_JEWELCRAFTING = 755;
+            static const float  JC_MULT = 0.80f;
+
+            if (plr->HasSpell(ENCH_PERK_SPELL) && IsSpellInSkillLine(spellInfo->Id, SKILL_JEWELCRAFTING))
+            {
+                ApplyMult(castTime, JC_MULT);
                 return;
             }
         }
