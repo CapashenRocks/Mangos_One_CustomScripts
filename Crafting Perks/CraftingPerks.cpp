@@ -4,6 +4,9 @@ JerCore Crafting Perks
 Custom dummy spell that can be learned on the profession trainer that grants speed bonuses.
 
 Speed Increase can be changed here, kept hardcoded here for better ownership and reduce potential abuse issues.
+
+Note: If you don't want to make custom spells then for the crafting perk tie it to any spell say for tailoring 
+it can be spell 26791 (Master Tailor) so that when that is learned at 300 the tailor also gets the speed perk, just need to update spells below.
 */
 
 #include "CraftingPerks.h"
@@ -159,7 +162,7 @@ namespace JerCore
                 ApplyMult(castTime, SMELT_MULT);
                 return;
             }
-            // Herbalistm: Herbing Speed Increase of 15 %
+            // Herbalistm: Herbing Speed Increase of 20 %
                 static const uint32 HERB_PERK_SPELL = 54016;
             static const uint32 SKILL_HERBALISM = 182;
             static const float  HERB_MULT = 0.80f;
@@ -179,10 +182,10 @@ namespace JerCore
                 ApplyMult(castTime, ENCH_MULT);
                 return;
             }
-            // Skinning: Skinning Speed Increase of 15 %
+            // Skinning: Skinning Speed Increase of 20 %
             static const uint32 SKIN_PERK_SPELL = 54018;
             static const uint32 SKILL_SKINNING = 393;
-            static const float  SKIN_MULT = 0.85f;
+            static const float  SKIN_MULT = 0.80f;
 
             if (plr->HasSpell(SKIN_PERK_SPELL) && IsSpellInSkillLine(spellInfo->Id, SKILL_SKINNING))
             {
