@@ -12,5 +12,5 @@ Various scripts written for MaNGSs One.
 * Crafting Perks <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
   + Utilizing custom dummy spells, increases various profession crafting/gathering speed
   + Custom Spell ID is hardcoded in the script.
-  + Newy Added- Herbalism and Enchanting.
+  + Newy Added- Herbalism, Skinning, Jewelcrafting, and Enchanting.
     
