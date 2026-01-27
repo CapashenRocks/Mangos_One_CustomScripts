@@ -159,6 +159,26 @@ namespace JerCore
                 ApplyMult(castTime, SMELT_MULT);
                 return;
             }
+            // Herbalistm: Herbing Speed Increase of 20 %
+                static const uint32 HERB_PERK_SPELL = 54016;
+            static const uint32 SKILL_HERBALISM = 182;
+            static const float  HERB_MULT = 0.80f;
+
+            if (plr->HasSpell(HERB_PERK_SPELL) && IsSpellInSkillLine(spellInfo->Id, SKILL_HERBALISM))
+            {
+                ApplyMult(castTime, HERB_MULT);
+                return;
+            }
+            // Enchanting: Enchanting Speed Increase of 20 %
+                static const uint32 ENCH_PERK_SPELL = 54017;
+            static const uint32 SKILL_ENCHANTING = 333;
+            static const float  ENCH_MULT = 0.80f;
+
+            if (plr->HasSpell(ENCH_PERK_SPELL) && IsSpellInSkillLine(spellInfo->Id, SKILL_ENCHANTING))
+            {
+                ApplyMult(castTime, ENCH_MULT);
+                return;
+            }
         }
     }
 }
