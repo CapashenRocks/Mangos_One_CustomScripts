@@ -15,6 +15,6 @@ Various scripts written for MaNGSs One.
   + Newy Added- Herbalism, Skinning, Jewelcrafting, and Enchanting.
   + New comment locations added on each perk spell for changing from existing spell to use.
   <br><br>
-  * JerCore Auction House Bot <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
-  + Upload coming as well as changes from the default script.
+ * JerCore Auction House Bot <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
+   + Upload coming as well as changes from the default script.
     
