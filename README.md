@@ -13,4 +13,5 @@ Various scripts written for MaNGSs One.
   + Utilizing custom dummy spells, increases various profession crafting/gathering speed
   + Custom Spell ID is hardcoded in the script.
   + Newy Added- Herbalism, Skinning, Jewelcrafting, and Enchanting.
+  + New comment locations added on each perk spell for changing from existing spell to use.
     
