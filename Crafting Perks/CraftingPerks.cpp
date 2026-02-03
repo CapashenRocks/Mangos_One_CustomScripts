@@ -3,7 +3,7 @@ JerCore Crafting Perks
 
 Custom dummy spell that can be learned on the profession trainer that grants speed bonuses.
 
-Speed Increase can be changed here, kept hardcoded here for better ownership and reduce potential abuse issues.
+Speed Increase can be changed, but for now it was kept hardcoded for better ownership and reduce potential abuse issues.
 
 Note: If you don't want to make custom spells then for the crafting perk tie it to any spell say for tailoring 
 it can be spell 26791 (Master Tailor) so that when that is learned at 300 the tailor also gets the speed perk, just need to update spells below.
@@ -206,3 +206,4 @@ namespace JerCore
         }
     }
 }
+
