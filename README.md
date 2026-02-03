@@ -4,14 +4,17 @@ Various scripts written for MaNGSs One.
 
 
 ##
-* Demon Renamer <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
+* JerCore Demon Renamer <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
   + Allows a Warlock to pay 5g once per day to name any of their demons.
   + The demon to be renamed must be summoned.
   + The SQL file needs to be run in the character database to create a new table for the script to work.
  <br><br>
-* Crafting Perks <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
+* JerCore Crafting Perks <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
   + Utilizing custom dummy spells, increases various profession crafting/gathering speed
   + Custom Spell ID is hardcoded in the script.
   + Newy Added- Herbalism, Skinning, Jewelcrafting, and Enchanting.
   + New comment locations added on each perk spell for changing from existing spell to use.
+  <br><br>
+  * JerCore Auction House Bot <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
+  + Upload coming as well as changes from the default script.
     
