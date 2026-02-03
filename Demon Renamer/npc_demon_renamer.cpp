@@ -1,5 +1,5 @@
 /*
-JerCore Custom Demon Renamer Script
+JerCore Demon Renamer Script
 Once a day, a Warlock can pay 5 gold to rename one of thier summonded demons.
 
 Under Review: Potential change to remove daily cap, but double cost each use.
@@ -225,3 +225,4 @@ void AddSC_custom_demon_renamer()
     s = new npc_demon_renamer();
     s->RegisterSelf();
 }
+
