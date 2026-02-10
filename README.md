@@ -15,6 +15,10 @@ Various scripts written for MaNGSs One.
   + Newy Added- Herbalism, Skinning, Jewelcrafting, and Enchanting.
   + New comment locations added on each perk spell for changing from existing spell to use.
   <br><br>
- * JerCore Auction House Bot <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
-   + Upload coming as well as changes from the default script.
+* JerCore Custom Bellygrub Script <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
+  + Custom script for Bellygrub that stuns and heals at 35% health and at 10% calls 2 friends.
+  + New and testing in progress, on test server the quest "An Unwelcome Guest" (quest id 34) is changed to add new reward items with increased money and suggetion of 2 players to be inline with the creature's new difficulty.
+  <br><br>
+* JerCore Auction House Bot <img src="https://github.com/CapashenRocks/Lua-Scripts/blob/main/Misc/Art/BC.png">
+  + Upload coming as well as changes from the default script.
     
