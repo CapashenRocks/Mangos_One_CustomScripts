@@ -1,6 +1,6 @@
 /*
 JerCore- Custom Bellygrub Encounter Script
-Bellygrub in JerCore: The Dark Portal is now a 24 Elite creature in Redridge Mountains and has had his quest "An Unwelcome Guest" updated to reflect that.
+Bellygrub in JerCore: The Dark Portal is now a 24 Elite npc in Redridge Mountains and has had his quest "An Unwelcome Guest" updated to reflect that.
 
 The fight is designed to be more challenging and engaging, with two main triggers at 35% and 10% health.
 
@@ -11,7 +11,7 @@ The idea is this is a creature that likely can't be solod by a player until they
 
 enum
 {
-    NPC_GORETUSK_BOAR = 157,
+    NPC_GORETUSK_BOAR = 547, // can be changed to any creature, this is the Great Goretusk (unchanged creature_template they are 16-17)
 
     SPELL_STUN_56 = 56,
 	SPELL_HEAL_POTION_441 = 441, // 280-360 heal
@@ -84,8 +84,8 @@ struct npc_bellygrub : public CreatureScript
                     NPC_GORETUSK_BOAR,
                     sx, sy, z,
                     m_creature->GetOrientation(),
-                    TEMPSPAWN_TIMED_DESPAWN,
-                    180000 // despawn after 3 minutes, likely to clean up corpses
+                    TEMPSPAWN_TIMED_OR_CORPSE_DESPAWN,
+                    120000 // despawn after 2 minutes if still alive, auto despawn on death
                 );
 
                 if (pBoar)
