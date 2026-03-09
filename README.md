@@ -1,5 +1,5 @@
 # MaNGOS One CustomScripts
-Various scripts written for MaNGSs One. 
+Various scripts written for MaNGOS One. 
   * Only tested for MaNGOS One not CMaNGOS, MaNGOS ZERO, or any other version.
 
 
